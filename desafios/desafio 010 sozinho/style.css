@@ -1,0 +1,148 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    margin: auto auto;
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: 0;
+    background-image: linear-gradient(#a6e98b, #2c5c31);
+}
+
+header > h1{
+    margin: 0 0 0 0;
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.712);
+}
+
+header > h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+nav{
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 26px;
+    color:white;
+}
+
+nav > a:hover{
+    transition-duration: 0.2s;
+    background-color: #193a1da9;
+    border-radius: 20px;
+}
+
+main{
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 3px 5px 8px rgb(0 0 0 / 30%), -3px -5px 8px rgb(0 0 0 / 30%);
+    max-width: 1200px;
+    min-width: 300px;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.bugdroid{
+    width: 35%;
+    display: block;
+    margin: auto;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 0.8;
+}
+
+
+
+section > h2{
+    font-family: idroid;
+    color: rgb(5, 88, 5);
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.712);
+
+}
+
+.video {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+
+.subtitulo{
+    border-radius: 8px;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgba(0, 255, 64, 0.651) , transparent);
+    font-family: idroid;
+    color: rgb(33, 143, 33);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+}
+
+.extra{
+    background-color: rgba(133, 201, 133, 0.74);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 57%);
+}
+
+.extra > h2{
+    background-color: rgb(68, 119, 68);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px;
+    margin: -9px -9px;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.extra > ul{
+    columns: 2;
+    margin: 20px;
+}
+
+footer{
+    background-color: rgb(47, 94, 47);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin-bottom: -16px;
+}
+
+footer > p{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.685);
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding: 8px;
+}
